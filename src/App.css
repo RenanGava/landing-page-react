@@ -1,0 +1,459 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+.clear{
+  clear: both;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.float__menuBar{
+  background-image: url(./images/menu.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+header{
+  background-image: url(./images/capa.png);
+  max-height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.section__Header{
+  padding: 20px 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  background-image: url(./images/logo-danki.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 160px;
+  flex: 1;
+}
+
+.menu__Header{
+  flex: 1;
+  width: 100%;
+  text-align: right;
+}
+
+.menuDesktop__Header a{
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.menuMobile__Header{
+  display: none;
+}
+
+.chamada1{
+  float: right;
+  
+}
+
+.chamada1 div{
+  text-align: left;
+  max-width: 500px;
+  margin: 240px 150px;
+}
+
+.chamada1 h2{
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.chamada1 p{
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+
+.chamada1 h2,
+.chamada1 p{
+  color: white;
+}
+
+.sessao1{
+  background-color: #472562;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.device__sessao1{
+  height: 400px;
+  margin-bottom: 0;
+}
+
+.device__sessao1 img{
+  position: relative;
+  top: -30px;
+  flex: 1;
+  max-width: 500px;
+
+}
+.texto__sessao1{
+  height: 300px;
+  margin-top: 50px;
+  flex: 1;
+  max-width: 500px;
+  padding-left: 100px;
+}
+
+.texto{
+  color: white;
+}
+
+h2.texto{
+  font-size: 28px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.texto__sessao1 ul li{
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.texto__sessao1 .btn__texto{
+  position: relative;
+  top: 50px;
+  left: -10px;
+  width: 300px;
+  height: 40px;
+}
+
+.texto__sessao1 .btn__texto a{
+  padding: 15px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff703d;
+}
+
+.sessao2 .container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.sessao2 p{
+  margin: 0 auto;
+  max-width: 900px;
+  font-size: 18px;
+  padding-top: 40px;
+}
+
+.sessao2 img{
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  
+}
+
+.sessao3{
+  display: flex;
+}
+
+.sessao3 .parte1{
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
+  flex: 1;
+  background-color: #835fa7;
+  height: 300px;
+}
+
+.parte1 .wraper-parte1{
+  padding-left: 20px;
+  padding-top: 40px;
+  max-width: 500px;
+  /* position: relative;
+  left: 70%; */
+}
+
+.wraper-parte1 h2{
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+  font-style: italic;
+}
+.wraper-parte1 p{
+  color: white;
+
+}
+
+.sessao3 .parte2{
+  padding-top: 40px;
+  flex: 1;
+}
+
+.sobre__autor{
+  display: none;
+}
+
+.view{
+  display: block;
+}
+.sessao3 .Title{
+  display: flex;
+  padding: 40px 20px 10px 30px;
+}
+
+.Title .nome h2{
+  font-weight: 400;
+}
+
+.Title .nome p{
+  color: #ccc;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.Title .img-autor img{
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.sobre__autor .texto-autor{
+  max-width: 600px;
+  padding-left: 30px;
+}
+
+.wraper-bullets{
+  padding-left: 30px;
+  display: flex;
+}
+
+.wraper-bullets .selected{
+  background-color: grey;
+}
+
+.wraper-bullets span{
+  background-color: #ccc;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.sessao4{
+  background-color: #472562;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  padding: 50px;
+}
+.sessao4 h2{
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.sessao4 p{
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  max-width: 500px;
+}
+
+.sessao4 .form form{
+  padding-top: 20px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.form form input,.form form textarea{
+  padding-left: 15px;
+  font-size: 15px;
+  margin: 3px 0;
+  height: 44px;
+}
+
+.form form input::placeholder,
+.form form textarea::placeholder{
+  font-weight: 600;
+
+}
+
+.form form textarea{
+  resize: none;
+  padding-top: 15px;
+  height: 200px;
+}
+
+footer{
+  padding: 0 2%;
+  height: 100px;
+  background-color: rgb(22, 22, 22);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p{
+  color: white;
+}
+
+
+@media screen and (max-width:920px) {
+  .device__sessao1{
+    display: none;
+  }
+
+  .sessao3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sessao3 .parte1{
+    justify-content: center;
+    text-align: justify;
+    padding-bottom: 30px;
+  }
+
+  .sessao3 .parte2{
+    display: flex;
+    padding: 40px;
+    padding-left: 140px;
+    padding-right: 0px;
+    flex-direction: column;
+    flex: 0;
+    max-width: 700px;
+  }
+  .parte2 .Title{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .parte2 .nome{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .parte2 .img-autor{
+    margin: 0 auto;
+    text-align: left;
+  }
+  .wraper-bullets{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .logo__Marca{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(54, 54, 54, 0.589);
+    width: 100%;
+    display: flex;
+    height: 60px;
+    
+  }
+  .logo{
+    margin-top: 10px;
+    height: 30px;
+  }
+  .float__menuBar{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .menuDesktop__Header{
+    display: none;
+  }
+
+  .view{
+    display: flex;
+    transition: 500ms;
+  }
+
+  .menuMobile__Header{
+    background-color: rgba(54, 54, 54, 0.589);
+    flex-direction: column;
+    width: calc(100%);
+    position: absolute;
+    left: 0;
+    top:60px;
+    text-align: center;
+    
+  }
+
+  .menuMobile__Header a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    transition: 200ms;
+  }
+  .menuMobile__Header a:hover{
+    background-color: rgba(177, 177, 177, 0.589);
+  }
+
+  .chamada1{
+    text-align: center;
+  }
+
+  .parte2{
+    position: relative;
+    left: 38%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+  .sessao3 .parte2 .texto-autor{
+    padding-top: 40px;
+    
+  }
+
+  .wraper-bullets{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
